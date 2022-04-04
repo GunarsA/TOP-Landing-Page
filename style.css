@@ -1,7 +1,7 @@
 :root {
-  --dark: #1F2957;
   --light: #F9FAF8;
   --light-secondary: #E5E7EB;
+  --dark: #1F2957;
   --blue: #3882F6;
 }
 
@@ -12,35 +12,48 @@
   padding: 0;
   margin: 0;
   text-decoration: none;
-
 }
 
+.hero {
+  background-color: #1F2937;
+  padding: 0 200px;
+}
+
+header,
+.top {
+  padding: 20px 0 70px 0;
+  display: flex;
+}
 
 header {
-  background-color: #1F2937;
-  padding: 20px 140px 70px 140px;
-  display: flex;
   justify-content: space-between;
 }
 
 .header-logo {
   font-size: 24px;
-  color: #F9FAF8;
 }
 
 .links a {
   font-size: 18px;
-  color: #E5E7EB;
   margin: 20px;
+  color: var(--light-secondary);
 }
 
-
-.top{
-  background-color: #1F2937;
-  padding: 20px 140px 70px 140px;
+.top {
   display: flex;
-  justify-content: space-between;
+  gap: 40px;
 }
+
+.image-placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 600px;
+  background-color: gray;
+  color: var(--light-secondary);
+}
+
 
 
 .hero-main-text {
@@ -60,7 +73,13 @@ header {
 }
 
 .button {
-  color: var(--blue);
+  font-size: 18px;
+  font-weight: bold;
+  background-color: var(--blue);
+  color: var(--light);
+  border-color: var(--blue);
+  border-radius: 10px;
+  padding: 5px 30px;
 }
 
 .information-header-text {
