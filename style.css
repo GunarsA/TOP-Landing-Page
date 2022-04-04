@@ -1,13 +1,20 @@
+:root {
+  --dark: #1F2957;
+  --light: #F9FAF8;
+  --light-secondary: #E5E7EB;
+  --blue: #3882F6;
+}
+
+
 * {
   box-sizing: border-box;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   padding: 0;
   margin: 0;
+  text-decoration: none;
+
 }
 
-a {
-  text-decoration: none;
-}
 
 header {
   background-color: #1F2937;
@@ -25,4 +32,45 @@ header {
   font-size: 18px;
   color: #E5E7EB;
   margin: 20px;
+}
+
+
+.top{
+  background-color: #1F2937;
+  padding: 20px 140px 70px 140px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.hero-main-text {
+  font-size: 48px; 
+  font-weight: 1000;
+  color: var(--light);
+}
+
+.hero-secondary-text {
+  font-size: 18px;
+  color: var(--light-secondary);
+}
+
+.header-logo-text {
+  font-size: 24px;
+  color: var(--light);
+}
+
+.button {
+  color: var(--blue);
+}
+
+.information-header-text {
+  font-size: 36px;
+  font-weight: 1000;
+  color: var(--dark);
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: light italic;
+  color: var(--dark);
 }
