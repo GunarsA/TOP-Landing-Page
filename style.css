@@ -193,3 +193,12 @@ a {
   height: 50px;
   border-style: solid;
 }
+
+footer {
+  background-color: var(--dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  color: var(--light);
+}
