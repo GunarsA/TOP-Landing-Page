@@ -121,4 +121,29 @@ a {
 
 .information-list figcaption {
   text-align: center;
+  color: var(--dark);
+}
+
+
+.quote {
+  background-color: var(--light-secondary);
+  padding: 50px 250px 50px 250px;
+}
+
+.quote blockquote {
+  margin: 0;
+  padding: 0;
+  font-size: 36px;
+  font-style: italic;
+  color: var(--dark);
+}
+
+.quote cite {
+  margin: 0;
+  padding: 0;
+  color: var(--dark);
+  display: block;
+  text-align: right;
+  font-weight: bold;
+  font-style: normal;
 }
