@@ -73,7 +73,7 @@ a {
   font-weight: bold;
   background-color: var(--blue);
   color: var(--light);
-  border-color: var(--blue);
+  border-color: transparent;
   border-radius: 10px;
   padding: 5px 30px;
 }
