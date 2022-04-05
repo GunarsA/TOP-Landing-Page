@@ -85,3 +85,8 @@ a {
   background-color: #6d747d;
   color: var(--light-secondary);
 }
+
+
+.information {
+  background-color: var(--light);
+}
