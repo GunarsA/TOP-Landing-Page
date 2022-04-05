@@ -1,7 +1,7 @@
 :root {
   --light: #F9FAF8;
   --light-secondary: #E5E7EB;
-  --dark: #1F2957;
+  --dark: #1F2937;
   --blue: #3882F6;
 }
 
@@ -20,7 +20,7 @@ a {
 }
 
 .hero {
-  background-color: #1F2937;
+  background-color: var(--dark);
   padding: 0 200px;
 }
 
@@ -34,17 +34,17 @@ header {
   justify-content: space-between;
 }
 
-.header-logo {
+header h1 {
   font-size: 24px;
 }
 
-.links a {
+header a {
   font-size: 18px;
   margin: 20px;
   color: var(--light-secondary);
 }
 
-.top {
+.hero section {
   display: flex;
   gap: 40px;
 }
