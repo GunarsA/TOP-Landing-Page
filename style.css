@@ -25,7 +25,7 @@ a {
 }
 
 header,
-.top {
+.hero section {
   padding: 20px 0 70px 0;
   display: flex;
 }
@@ -36,10 +36,12 @@ header {
 
 header h1 {
   font-size: 24px;
+  color: var(--light);
 }
 
 header a {
   font-size: 18px;
+  color: var(--light-secondary);
   margin: 20px;
   color: var(--light-secondary);
 }
@@ -47,6 +49,27 @@ header a {
 .hero section {
   display: flex;
   gap: 40px;
+}
+
+.hero section h1 {
+  font-size: 48px; 
+  font-weight: 1000;
+  color: var(--light);
+}
+
+.hero section p {
+  font-size: 18px;
+  color: var(--light-secondary);
+}
+
+.hero section button {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: var(--blue);
+  color: var(--light);
+  border-color: var(--blue);
+  border-radius: 10px;
+  padding: 5px 30px;
 }
 
 .image-placeholder {
@@ -57,44 +80,4 @@ header a {
   width: 600px;
   background-color: gray;
   color: var(--light-secondary);
-}
-
-
-
-.hero-main-text {
-  font-size: 48px; 
-  font-weight: 1000;
-  color: var(--light);
-}
-
-.hero-secondary-text {
-  font-size: 18px;
-  color: var(--light-secondary);
-}
-
-.header-logo-text {
-  font-size: 24px;
-  color: var(--light);
-}
-
-.button {
-  font-size: 18px;
-  font-weight: bold;
-  background-color: var(--blue);
-  color: var(--light);
-  border-color: var(--blue);
-  border-radius: 10px;
-  padding: 5px 30px;
-}
-
-.information-header-text {
-  font-size: 36px;
-  font-weight: 1000;
-  color: var(--dark);
-}
-
-.quote-text {
-  font-size: 36px;
-  font-style: light italic;
-  color: var(--dark);
 }
