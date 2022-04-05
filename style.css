@@ -19,36 +19,37 @@ a {
   text-decoration: none;
 }
 
+
 .hero {
   background-color: var(--dark);
   padding: 0 200px;
 }
 
-header,
-.hero section {
+.hero header {
   padding: 20px 0 70px 0;
   display: flex;
-}
-
-header {
   justify-content: space-between;
 }
 
-header h1 {
+.hero header h1 {
   font-size: 24px;
   color: var(--light);
 }
 
-header a {
+.hero header a {
   font-size: 18px;
   color: var(--light-secondary);
   margin: 20px;
-  color: var(--light-secondary);
 }
 
 .hero section {
+  padding: 20px 0 70px 0;
   display: flex;
   gap: 40px;
+}
+
+.hero section > * {
+  flex: 1 0 0px;
 }
 
 .hero section h1 {
@@ -76,8 +77,6 @@ header a {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 300px;
-  width: 600px;
   background-color: gray;
   color: var(--light-secondary);
 }
