@@ -147,3 +147,49 @@ a {
   font-weight: bold;
   font-style: normal;
 }
+
+
+.call {
+  background-color: var(--light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-center{
+  margin: 100px;
+  padding: 50px 150px;
+  background-color: var(--blue);
+  border-radius: 10px;
+  width: 1000px;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.call-center h3 {
+  margin: 0 0 5px 0;
+  padding: 0;
+  color: var(--light);
+  font-weight: bold;
+}
+
+.call-center p {
+  margin: 0;
+  padding: 0;
+  color: var(--light);
+}
+
+.call-center button {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: var(--blue);
+  color: var(--light);
+  border-color: var(--light);
+  border-radius: 10px;
+  padding: 5px 30px;
+  width: 150px;
+  height: 50px;
+  border-style: solid;
+}
